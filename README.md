@@ -4,9 +4,9 @@ Projet dans le cadre du cours INF1493 - Initiation à la création de sites Web
 Un site web qui recommande des idées de cadeaux (mon idée de faire une pizzeria a pas été accepté kek)
 
 ### HTML et CSS
-- [ ]  Titre, paragraphe sections etc...
+- [X]  Titre, paragraphe sections etc...
 - [ ]  Liens
-- [ ]  Listes
+- [ ]  Listes ul et ol
 - [ ]  Images (mappées)
 - [ ]  Tableaux
 - [ ]  Formulaires
