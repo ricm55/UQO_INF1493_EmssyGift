@@ -34,9 +34,10 @@ header{
 aside {
 	float: left; 
 	width: 25%;
-  height: 75%;
+  height: 40em;
 	padding: 20px 0;
   border-right: dotted 2px #38A9CC;
+  overflow: hidden;
 }
 
 aside h1{
@@ -179,6 +180,17 @@ nav>ul>li>a:active{
 .current{
   text-decoration: none;
 }
+
+@media screen and (max-width: 900px) {
+  video {
+    width: 200px;
+  }
+
+  ul{
+    flex-direction: column;
+  }
+}
+
 /*=================================*/
 
 /* ======= Main section ======= */
@@ -188,7 +200,66 @@ nav>ul>li>a:active{
 }
 .content{
   overflow: hidden;
-  padding: 10% 0%;
+  padding: 5% 0%;
+}
+
+.content h3{
+  font-weight: bold;
+  text-decoration: underline overline;
+  font-family: Lobster, sans-serif;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.description{
+  font-style: italic;
+  color: #06b5eb;
+  font-family: ViaodaLibre, sans-serif;
+  width: 90%;
+}
+
+.reviewList{
+  overflow: scroll;
+  width: 90%;
+  height: 16em;
+  border: solid black 1px;
+  margin: auto;
+  background-image: linear-gradient(to bottom right, blue, purple);
+}
+
+.formReview #name{
+  border-radius: 25px;
+  width: 90%;
+  height: 3em;
+  margin: 1em;
+  border: 3px blue solid;
+}
+.formReview #reviewUser{
+  border-radius: 0px 25px;
+  width: 90%;
+  height: 3em;
+  margin: 1em;
+  border: 3px blue solid;
+}
+
+fieldset{
+  margin: 1em;
+  color: blue;
+}
+input[type="button"]{
+  background: radial-gradient(#00ff15, #00f3e7);
+  border-radius: 15px;
+  width: 15%;
+  margin-left: 80%;
+  cursor: pointer;
+}
+
+.reviewList p{
+  border: solid black 1px;
+  border-radius: 10px 10px 0px 10px;
+  font-weight: bold;
+  padding: 1em 0em;
+  background-image: linear-gradient(#FF00C8, red);
 }
 
 

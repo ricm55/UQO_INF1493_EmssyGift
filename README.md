@@ -6,7 +6,7 @@ Un site web qui recommande des idées de cadeaux (mon idée de faire une pizzeri
 ### HTML et CSS
 - [X]  Titre, paragraphe sections etc...
 - [ ]  Liens
-- [ ]  Listes ul et ol
+- [X]  Listes ul et ol
 - [ ]  Images (mappées)
 - [ ]  Tableaux
 - [ ]  Formulaires
@@ -14,8 +14,8 @@ Un site web qui recommande des idées de cadeaux (mon idée de faire une pizzeri
         - attributs de validation HTML5 pour valider l’entrée de plusieurs champs 
         - afficher un message approprié dans l'info-bulle si l'entrée n'est pas valide.
 - [ ]  Audio et vidéo
-- [ ]  Média queries
-- [ ]  Flex box
+- [X]  Média queries
+- [X]  Flex box
 
 ### JAVASCRIPT
 
@@ -36,7 +36,7 @@ Un site web qui recommande des idées de cadeaux (mon idée de faire une pizzeri
 - [ ] ValentineGift.html => Liste des cadeaux de St-Valentin
 - [ ] BirthdayGift.html => Liste des cadeaux de fête
 - [ ] Proposition.html => Permet a l'utilisateur de proposer des idées
-- [ ] Register.html => Les utilisateurs peuvent s'enregistrer afin d'avoir accès à plus d'idées et de proposer des idées
+- [ ] Register.html => Les utilisateurs peuvent s'enregistrer afin de pouvoir avoir la chance de gagner un cadeau de votre choix
 - [ ] stats.html => tableau de statistique du nombre d'utilisateur satisfait, acheter...
 - [ ] pokemons.html => Liste toutes les cartes de pokemon pouvant être reçus
 
