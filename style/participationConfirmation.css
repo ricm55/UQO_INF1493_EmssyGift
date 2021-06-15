@@ -13,7 +13,7 @@ body{
 header>.title>video{
     float: right;
 }
-header>.title>h1{
+header>.title>a>h1{
     float: left;
     font-family: Righteous,sans-serif;
     color: teal;
@@ -87,6 +87,8 @@ aside li a:hover, aside li a:focus{
   background-color: inherit;
   font-family: inherit;
   margin: 0;
+  text-decoration: underline;
+  color: inherit;
 }
 
 .dropdown{
@@ -137,10 +139,10 @@ nav>ul>li>a{
   display: block;
   padding: .5em 0 .5em .5em;
   text-align: center;
-  /*margin-top: 0.5em;*/
+  margin-top: 0.5em;
 }
 
-nav>ul>li>a:link, .dropdown .dropbtn{
+nav>ul>li>a:link, nav>ul>li>a:visited,.dropdown .dropbtn{
   font-weight: bold;
   font-size: 85%;
   color: black;
@@ -162,10 +164,6 @@ nav>ul>li>a:focus,
 
 .dropdown:hover{
   color: white;
-}
-.dropdown .dropbtn{
-  text-decoration: underline;
-  color: inherit;
 }
 
 nav>ul>li:hover a{

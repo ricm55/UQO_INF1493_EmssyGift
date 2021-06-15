@@ -35,9 +35,9 @@ Un site web qui recommande des idées de cadeaux (mon idée de faire une pizzeri
 - [X] ParticiperConcours.html => Pour participer à un concours
 - [X] ParticipationConfirmation.html => Pour confirmer la participation au concours
 - [ ] Order.html => Commander un cadeau
-- [ ] NoelGift.html => Liste des cadeaux de noel
-- [ ] ValentineGift.html => Liste des cadeaux de St-Valentin
-- [ ] BirthdayGift.html => Liste des cadeaux de fête
+- [X] suggestionNoel.html => Liste des cadeaux de noel
+- [X] SuggestionStValentin.html => Liste des cadeaux de St-Valentin
+- [X] suggestionAnniversaire.html => Liste des cadeaux de fête
 - [ ] Proposition.html => Permet a l'utilisateur de proposer des idées
 - [ ] Register.html => Les utilisateurs peuvent s'enregistrer afin de pouvoir avoir la chance de gagner un cadeau de votre choix
 - [X] statistiques.html => tableau de statistique du nombre d'utilisateur satisfait, acheter...
@@ -46,9 +46,15 @@ Un site web qui recommande des idées de cadeaux (mon idée de faire une pizzeri
 
 Éléments supplémentaire;
 
--[ ] Faire fonctionner tous les liens nav
--[ ] Ajouter les meta données avec keywords et description
--[ ] Mettre title pour chaque page
+- [X] Faire fonctionner tous les liens nav et aside
+- [ ] Ajouter les meta données avec keywords et description
+- [X] Ajouter logo dans tab
+- [X] Mettre title pour chaque page
+- [X] Emssy's gift doit devenir un shortcut pour accueil
+- [ ] mettre un peu de css dans À propos
+- [ ] Relire tous les exigences du site
+- [ ] Css bouton voir les cartes pokemon
+- [ ] Vérifier les fichiers css si selecteurs se repetent
 
 
 
