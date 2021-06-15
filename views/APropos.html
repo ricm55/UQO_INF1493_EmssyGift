@@ -10,10 +10,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Righteous" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Viaoda+Libre" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lobster" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anton" rel="stylesheet">
     <script src="https://kit.fontawesome.com/9b7bd9f418.js" crossorigin="anonymous"></script>
     <link rel="icon" href="../img/gift_logo.jpg">
-    <link rel="stylesheet" href="../style/APropos.css">
-    <title>À propos</title>
+    <link rel="stylesheet" href="../style/suggestionAnniversaire.css">
+    <title>Suggestion d'anniversaire</title>
 </head>
 <body>
     <header>
@@ -36,12 +37,12 @@
             <div class="dropdown-content">
               <a href="suggestionNoel.html">Noël</a>
               <a href="suggestionStValentin.html">St-Valentin</a>
-              <a href="suggestionAnniversaire.html">Anniversaire</a>
+              <a href="#">Anniversaire</a>
             </div>
-          </div>
+          </div> 
         </li>
         <li><a href="statistiques.html" >Statistiques</a></li>
-        <li><a href="#" class="current">À propos</a></li>
+        <li><a href="APropos.html">À propos</a></li>
       </ul>
     </nav>
     <section class="principal">
@@ -54,33 +55,35 @@
             </ul>
           </aside>
           <div class="content">
-              <h1>À Propos</h1>
-              <p>
-                  Ce site à été développé dans le but d'aider les gens en manque d'inspiration à trouver des cadeaux. Il nous fait plaisir de vous proposer
-                  les meilleurs idées de cadeaux à offrir à vos proches. Si vous avez d'autre suggestion pour ce site, veuillez nous envoyer toutes les 
-                  informations via mon &nbsp;<a class="courriel" href="mailto: marcantoinericard@gmail.com">courriel</a>
-              </p>
-              <h2>Objectif de ce site; </h2>
-              <ol>
-                <li>Éviter de vous faire juger car vous n'avez pas réussi à trouver de cadeaux</li>
-                <li>Trouver les idées les plus originales</li>
-                <li>Obtenir de plus en plus d'idées de la communauté afin d'avoir le plus grand repertoire d'idées de cadeaux au monde !</li>
-              </ol>
-              <h2>Concours</h2>
-              <p>Pour ceux voulant courir la chance de gagner un item parmis les suggestions sur le site, vous devez obligatoirement faire partie d'une des régions du Québec (principalement le Nord du Québec et la Côte-Nord); </p>
-              <div class="map">
-                <!-- width="389px" height="273px" -->
-                <img src="../img/quebec.jpg" alt="Carte du Québec"  usemap="#quebec">
-                <map name="quebec">
-                  <area target="_blank" alt="Côte-Nord" title="Côte-Nord" href="https://tourismecote-nord.com/decouvrez-notre-region/carte-et-acces/carte-et-directions/" coords="66,71,97,72,136,74,139,95,128,111,116,126,102,118,91,113,84,120,70,132" shape="poly">
-                  <area target="_blank" alt="Nord du Québec" title="Nord du Québec" href="https://fr.wikipedia.org/wiki/Nord-du-Qu%C3%A9bec" coords="30,2,51,7,28,43,83,54,88,40,28,43,27,22,30,62,13,77,10,121,36,125,53,107,64,93,63,70,101,68,95,41,86,25,30,14,26,34,86,49,28,43,78,51" shape="poly">
-                </map>
+              <h1>Suggestion d'anniversaire</h1>
+              <div class="suggestion">
+                  <h2>Verre à Whisky Personnalisable - Prénom et Message</h2>
+                  <p class="description">Si votre cible aime beaucoup le whisky, un verre Personnalisable pourrait être un bon choix !</p>
+                  <a target="_blank" href="https://www.cadeaux.com/v2/boutique/cadeau-verre-a-whisky-homme-r3512000.html">
+                    <img src="../img/verre-a-whisky-personnalise.jpg" alt="Verre a whiskey Personnalisable">  
+                  </a>
               </div>
+              <div class="suggestion">
+                <h2>Manette de jeu en chocolat personnalisable</h2>
+                <p class="description">UNe bonne recommandation de cadeau pour les gamers est une manette de chocolat !</p>
+                <a target="_blank" href="https://www.cadeaux.com/v2/boutique/cadeau-manette-jeu-en-chocolat-r6062000.html">
+                  <img src="../img/manette-jeu-chocolat-noel.jpg" alt="Passion BBQ">  
+                </a>
+            </div>
+            <div id="pokemon" class="suggestion">
+                <h2>Des cartes de pokemon</h2>
+                <p class="description">Pour les enfants d'un plus jeune âge, les cartes de pokemon ne les décevront jamais ! Surtout Charizaaaaaaaaaaaaaaaaaaaaard </p>
+                <a target="_blank" href="https://imaginaire.com/fr/jeux-casse-tetes-et-puzzles/pokemon-booster-pack-anglais-limite-1-boite-36-paquets-par-client-chilling-reign.html">
+                  <img src="../img/Charizard_Cards.jpg" alt="Pack pokemon">  
+                </a>
+                <a href="pokemon.html">
+                  <input type="button" name="pokemon" id="pokemon" value="Voir les cartes de pokemon">
+                </a>
+            </div>
           </div>
     </section>
     <footer>
       <p>&copy; 2021 Emssy's Gift. Tous droits réservés. <br>Réalisé par Marc-Antoine Ricard</p>
     </footer>
-    <script src="js/review.js"></script>
 </body>
 </html>

@@ -54,6 +54,8 @@ Un site web qui recommande des idées de cadeaux (mon idée de faire une pizzeri
 - [X] mettre un peu de css dans À propos
 - [X] Css bouton voir les cartes pokemon
 - [X] Vérifier les fichiers css si selecteurs se repetent
+- [ ] Faire proposition.html
 - [ ] Relire tous les exigences du site
+- [ ] Ajouter de l'audio
 
 
