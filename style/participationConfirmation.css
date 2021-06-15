@@ -34,7 +34,7 @@ header{
 aside {
 	float: left; 
 	width: 25%;
-  height: 25em;
+  height: 20em;
 	padding: 20px 0;
   border-right: dotted 2px #38A9CC;
   overflow: hidden;
@@ -137,7 +137,7 @@ nav>ul>li>a{
   display: block;
   padding: .5em 0 .5em .5em;
   text-align: center;
-  margin-top: 0.5em;
+  /*margin-top: 0.5em;*/
 }
 
 nav>ul>li>a:link, .dropdown .dropbtn{
@@ -199,7 +199,12 @@ nav>ul>li>a:active{
   padding: 5% 0%;
 }
 
-
+.content p{
+  font-style: italic;
+  color: lime;
+  text-align: center;
+  margin-top: 7em;
+}
 /*==============================*/
 footer{
     border-top: 1px solid black;

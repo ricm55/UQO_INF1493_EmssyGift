@@ -5,10 +5,10 @@ Un site web qui recommande des idées de cadeaux (mon idée de faire une pizzeri
 
 ### HTML et CSS
 - [X]  Titre, paragraphe sections etc...
-- [ ]  Liens
+- [X]  Liens
 - [X]  Listes ul et ol
-- [ ]  Images (mappées)
-- [ ]  Tableaux
+- [X]  Images (mappées)
+- [X]  Tableaux
 - [ ]  Formulaires
         - d'au moin 8 types (attribut type) différents
         - attributs de validation HTML5 pour valider l’entrée de plusieurs champs 
@@ -17,7 +17,7 @@ Un site web qui recommande des idées de cadeaux (mon idée de faire une pizzeri
 - [X]  Média queries
 - [X]  Flex box
 
-### JAVASCRIPT
+### JAVASCRIPT (optionel)
 
 - [ ]  Formulaires
         - Tous les types utilisés dans le formulaire doivent être validés en utilisant le JavaScript (validation coté client).
@@ -28,16 +28,19 @@ Un site web qui recommande des idées de cadeaux (mon idée de faire une pizzeri
         - Créer une page de traitement du formulaire avec PHP coté server
         - La soumission du formulaire doit transmettre toutes les données du formulaire (dans un format ver la base de données Mysql à travers la page de traitement php et également à travers un courriel. 
 
-## PAGES 
+## PAGES (optionel)
 
-- [ ] index.html => Page d'accueil
+- [X] index.html => Page d'accueil
+- [X] APropos.html => Page À Propos
+- [X] ParticiperConcours.html => Pour participer à un concours
+- [X] ParticipationConfirmation.html => Pour confirmer la participation au concours
 - [ ] Order.html => Commander un cadeau
 - [ ] NoelGift.html => Liste des cadeaux de noel
 - [ ] ValentineGift.html => Liste des cadeaux de St-Valentin
 - [ ] BirthdayGift.html => Liste des cadeaux de fête
 - [ ] Proposition.html => Permet a l'utilisateur de proposer des idées
 - [ ] Register.html => Les utilisateurs peuvent s'enregistrer afin de pouvoir avoir la chance de gagner un cadeau de votre choix
-- [ ] stats.html => tableau de statistique du nombre d'utilisateur satisfait, acheter...
+- [X] statistiques.html => tableau de statistique du nombre d'utilisateur satisfait, acheter...
 - [ ] pokemons.html => Liste toutes les cartes de pokemon pouvant être reçus
 
 

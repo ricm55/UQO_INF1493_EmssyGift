@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="gift, noel, birthday, St-Valentin">
+    <meta name="author" content="Marc-Antoine Ricard">
+    <meta name="description" content="Free Web tutorials for HTML and CSS">
+    <link href="https://fonts.googleapis.com/css2?family=Righteous" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Viaoda+Libre" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/9b7bd9f418.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../style/participerConcours.css">
+    <title>Emssy Gifts</title>
+</head>
+<body>
+    <header>
+        <section class="title">
+            <h1>Emssy's Gift</h1>
+            <video width="350" height="200em" src="../video/gift.mp4" autoplay muted loop/>    
+        </section>
+    </header>
+     <nav>
+      <ul id="menu">
+        <li><a href="home.html" >Accueil</a></li>
+        <li><a href="#" class="current">Enregistrer</a></li>
+        <li>
+          <div class="dropdown">
+            <button class="dropbtn">Suggestions 
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="#">Noël</a>
+              <a href="#">St-Valentin</a>
+              <a href="#">Anniversaire</a>
+            </div>
+          </div> 
+        </li>
+        <li><a href="home.html" >Statistiques</a></li>
+        <li><a href="APropos.html">À propos</a></li>
+      </ul>
+    </nav>
+    <section class="principal">
+        <aside>
+            <h1>Nos meilleurs recommandations</h1>
+            <ul>
+              <li><a href="#">Des cartes pokemon</a></li>
+              <li><a href="#">Un toutou en pelush</a></li>
+              <li><a href="#">Des chocolats</a></li>
+            </ul>
+          </aside>
+          <div class="content">
+            <h1>Participer au concours</h1>
+            <form action="participationConfirmation.html" method="get" name="participation" id="participation">
+                <fieldset>
+                    <legend>Informations de bases du participant</legend>
+                    <label for="prenom">Prénom:</label>
+                    <input type="text" name="prenom" id="prenom" required autofocus><br>
+                    <label for="nom">Nom:</label>
+                    <input type="text" name="nom" id="nom" required><br>
+                    <label for="courriel">Courriel:</label>
+                    <input type="email" name="courriel" id="courriel" required><br>
+                    <label for="adresse">Adresse:</label>
+                    <input type="text" name="adresse" id="adresse"><br>
+                    <label for="ville">Ville:</label>
+                    <input type="text" name="ville" id="ville" required><br>
+                    <label for="province">Province:</label>
+                    <input type="text" name="province" id="province" required maxlength="2" placeholder="2 caractères maximum (ex: QC)"><br>
+                    <label for="code-postal">Code postal:</label>
+                    <input type="text" name="code-postal" id="code-postal" required placeholder="Q3Q 3Q3" 
+                           pattern="^[A-Z][0-9][A-Z][ ]?[0-9][A-Z][0-9]$" title="Doit etre de format Q3Q 3Q3"><br>
+                    <label for="telephone">Numéro de téléphone:</label>
+                    <input type="tel" name="telephone" id="telephone" placeholder="999-999-9999" 
+                           pattern="\d{3}[\-]\d{3}[\-]\d{4}" title="Ex: 123-123-1234"><br>
+                </fieldset>
+                <fieldset>
+                    <legend>Informations supplémentaires</legend>
+                    <label for="type-objet">Type d'objets?</label>
+                    <select name="type-objet" id="type-objet">
+                        <option value="noel">Noel</option>
+                        <option value="st-valentin">St-Valentin</option>            
+                        <option value="anniversaire">Anniversaire</option>
+                    </select><br>
+                    <label for="date-debut">Date d'inscription:</label>
+                    <input type="date" name="date-inscription" id="date-inscription" required><br>
+                    <label for="items">Nombre d'objets voulant gagner:</label>
+                    <input type="number" name="items" id="items" value="1" min="1" max="6" placeholder="1-6"><br>
+                </fieldset>
+                <fieldset id="boutons">
+                    <legend>Envoyer votre participation</legend>
+                    <label>&nbsp;</label>
+                    <input type="submit" id="envoyer" value="Participer">
+                    <input type="reset" id="effacer" value="Effacer"><br>
+                </fieldset>
+            </form>
+          </div>
+    </section>
+    <footer>
+      <p>&copy; 2021 Emssy's Gift. Tous droits réservés. <br>Réalisé par Marc-Antoine Ricard</p>
+    </footer>
+    <script src="js/review.js"></script>
+</body>
+</html>
