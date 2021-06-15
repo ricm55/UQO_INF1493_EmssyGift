@@ -223,6 +223,18 @@ html{
   .content .suggestion{
       border: solid  lime 3px;
   }
+
+  .content #pokemon input{
+    background: radial-gradient(#00ff15, #00f3e7);
+    border-radius: 15px;
+    width: 40%;
+    cursor: pointer;
+    margin: 60% 1em 1em 1em;
+    float: right;
+  }
+  #pokemon{
+    overflow: hidden;
+  }
   
   /*==============================*/
   footer{

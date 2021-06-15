@@ -34,7 +34,7 @@ header{
 aside {
 	float: left; 
 	width: 25%;
-  height: 25em;
+  height: 40em;
 	padding: 20px 0;
   border-right: dotted 2px #38A9CC;
   overflow: hidden;
@@ -198,7 +198,42 @@ nav>ul>li>a:active{
   padding: 5% 0%;
 }
 
+.content h1, .content h2{
+  font-style: italic;
+  color: #06b5eb;
+  font-family: ViaodaLibre, sans-serif;
+  width: 90%;
+  text-align: center;
+}
 
+.content p, .content ol{
+  border: solid #06b5eb 3px;
+  border-radius: 10px;
+  padding: 1em;
+  margin: 1em;
+}
+
+.content p:hover, .content ol:hover{
+  background-color: rgb(219, 213, 213);
+}
+
+.content .map{
+  text-align: center;
+}
+
+.content .courriel{
+  font-style: italic;
+  color: #06b5eb;
+  font-family: ViaodaLibre, sans-serif;
+  text-decoration: none;
+}
+
+.content .courriel:hover{
+  font-style: italic;
+  color: #23809c;
+  font-family: ViaodaLibre, sans-serif;
+  text-decoration: none;
+}
 /*==============================*/
 footer{
     border-top: 1px solid black;

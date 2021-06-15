@@ -51,10 +51,9 @@ Un site web qui recommande des idées de cadeaux (mon idée de faire une pizzeri
 - [X] Ajouter logo dans tab
 - [X] Mettre title pour chaque page
 - [X] Emssy's gift doit devenir un shortcut pour accueil
-- [ ] mettre un peu de css dans À propos
+- [X] mettre un peu de css dans À propos
+- [X] Css bouton voir les cartes pokemon
+- [X] Vérifier les fichiers css si selecteurs se repetent
 - [ ] Relire tous les exigences du site
-- [ ] Css bouton voir les cartes pokemon
-- [ ] Vérifier les fichiers css si selecteurs se repetent
-
 
 
