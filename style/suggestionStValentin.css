@@ -211,7 +211,7 @@ html{
   .content h2{
     font-family: Anton, sans-serif;
   }
-  .content .description{
+  .content .description, .content ul{
     font-style: italic;
   }
 

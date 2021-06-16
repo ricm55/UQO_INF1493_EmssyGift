@@ -205,6 +205,10 @@ fieldset {
   padding-top: .5em;
 }
 
+fieldset:hover{
+  background-color: rgb(219, 213, 213);
+}
+
 legend {
   color: #06b5eb;
   font-weight: bold;
@@ -252,6 +256,11 @@ width: 10em;
   font-family: ViaodaLibre, sans-serif;
   width: 90%;
   text-align: center;
+}
+
+.content .description{
+  font-style: italic;
+  color: #06b5eb;
 }
 
 /*==============================*/

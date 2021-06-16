@@ -202,6 +202,7 @@ table{
   border-collapse: collapse;
   border: solid 1px black;
   margin: auto;
+  text-align: center;
 }
 
 td,th{

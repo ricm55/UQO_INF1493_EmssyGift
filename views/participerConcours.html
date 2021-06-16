@@ -56,6 +56,7 @@
           </aside>
           <div class="content">
             <h1>Participer au concours</h1>
+            <p class="description">Courez la chance de gagner un objet proposé sur le site aléatoirement ! </p>
             <form action="participationConfirmation.html" method="get" name="participation" id="participation">
                 <fieldset>
                     <legend>Informations de bases du participant</legend>
@@ -68,7 +69,7 @@
                     <label for="adresse">Adresse:</label>
                     <input type="text" name="adresse" id="adresse"><br>
                     <label for="ville">Ville:</label>
-                    <input type="text" name="ville" id="ville" required><br>
+                    <input pattern=".{1,30}" title="Maximum 30 caractères" type="text" name="ville" id="ville" required><br>
                     <label for="province">Province:</label>
                     <input type="text" name="province" id="province" required maxlength="2" placeholder="2 caractères maximum (ex: QC)"><br>
                     <label for="code-postal">Code postal:</label>
@@ -80,12 +81,13 @@
                 </fieldset>
                 <fieldset>
                     <legend>Informations supplémentaires</legend>
-                    <label for="type-objet">Type d'objets?</label>
-                    <select name="type-objet" id="type-objet">
-                        <option value="noel">Noel</option>
-                        <option value="st-valentin">St-Valentin</option>            
-                        <option value="anniversaire">Anniversaire</option>
-                    </select><br>
+                    <input type="radio", name="categorie" id="noel" value="noel" checked>
+                    <label for="noel">Noël</label>
+                    <input type="radio", name="categorie" id="St-Valentin" value="St-Valentin">
+                    <label for="St-Valentin">St-Valentin</label>
+                    <input type="radio", name="categorie" id="anniversaire" value="anniversaire">
+                    <label for="anniversaire">Anniversaire</label>
+                    <br>
                     <label for="date-debut">Date d'inscription:</label>
                     <input type="date" name="date-inscription" id="date-inscription" required><br>
                     <label for="items">Nombre d'objets voulant gagner:</label>

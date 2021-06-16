@@ -196,6 +196,7 @@ nav>ul>li>a:active{
 .content{
   overflow: hidden;
   padding: 5% 0%;
+  font-style: italic;
 }
 
 .content h1, .content h2{
@@ -210,6 +211,12 @@ nav>ul>li>a:active{
   border: solid #06b5eb 3px;
   border-radius: 10px;
   padding: 1em;
+  margin: 1em;
+}
+.content ol{
+  list-style-type: upper-roman;
+}
+.content ol li{
   margin: 1em;
 }
 
