@@ -224,6 +224,9 @@ nav>ul>li>a:active{
   margin: auto;
   background-image: linear-gradient(to bottom right, blue, purple);
 }
+.reviewList:hover{
+  background-image: linear-gradient(to bottom right, purple,blue);
+}
 
 .formReview #name{
   border-radius: 25px;
@@ -244,6 +247,11 @@ fieldset{
   margin: 1em;
   color: blue;
 }
+
+fieldset:hover{
+  background-color: rgb(219, 213, 213);
+}
+
 input[type="button"]{
   background: radial-gradient(#00ff15, #00f3e7);
   border-radius: 15px;

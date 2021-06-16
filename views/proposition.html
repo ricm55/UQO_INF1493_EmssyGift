@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Proposition, cadeau,  noel, anniversaire, St-Valentin">
+    <meta name="author" content="Marc-Antoine Ricard">
+    <meta name="description" content="Propositon de cadeaux pour tous les sujets !">
+    <link href="https://fonts.googleapis.com/css2?family=Righteous" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Viaoda+Libre" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anton" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/9b7bd9f418.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="../img/gift_logo.jpg">
+    <link rel="stylesheet" href="../style/proposition.css">
+    <title>Proposition de cadeau</title>
+</head>
+<body>
+    <header>
+        <section class="title">
+            <a href="../index.html">
+              <h1>Emssy's Gift</h1>
+            </a>
+            <video width="350" height="200em" src="../video/gift.mp4" autoplay muted loop/>    
+        </section>
+    </header>
+     <nav>
+      <ul id="menu">
+        <li><a href="../index.html" >Accueil</a></li>
+        <li><a href="participerConcours.html">Participer au concours</a></li>
+        <li>
+          <div class="dropdown">
+            <button class="dropbtn">Suggestions 
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="suggestionNoel.html">Noël</a>
+              <a href="suggestionStValentin.html">St-Valentin</a>
+              <a href="#">Anniversaire</a>
+            </div>
+          </div> 
+        </li>
+        <li><a href="statistiques.html" >Statistiques</a></li>
+        <li><a href="APropos.html">À propos</a></li>
+      </ul>
+    </nav>
+    <section class="principal">
+        <aside>
+            <h1>Nos meilleurs recommandations</h1>
+            <ul>
+              <li><a href="suggestionAnniversaire.html#pokemon">Des cartes pokemon</a></li>
+              <li><a href="suggestionNoel.html#toutouPelush">Un toutou en pelush</a></li>
+              <li><a href="suggestionStValentin.html#chocolat">Des chocolats</a></li>
+              <li><a href="#">Envoyer nous vos propositions de cadeaux !</a></li>
+            </ul>
+          </aside>
+          <div class="content">
+              <h1>Suggestions d'idées afin d'améliorer le site</h1>
+            <form action="participationConfirmation.html" method="get" name="suggestion" id="suggestion">
+                <fieldset>
+                    <legend>Informations de bases du participant</legend>
+                    <label for="nom">Nom de la suggestion:</label>
+                    <input type="text" name="nom" id="nom" required autofocus><br>
+                    <label for="urlAchat">Url d'un lien d'achat:</label>
+                    <input type="text" name="urlAchat" id="utlAchat" required><br>
+                    <label for="description">Description du produit:</label>
+                    <input type="text" name="description" id="description" required><br>
+                    <label for="categorie">Catégorie du produit:</label>
+                    <select name="categorie" id="categorie">
+                        <option value="noel">Noel</option>
+                        <option value="st-valentin">St-Valentin</option>            
+                        <option value="anniversaire">Anniversaire</option>
+                    </select><br>
+                    <label>&nbsp;</label>
+                    <input type="submit" id="envoyer" value="Suggerer">
+                </fieldset>
+            </form>
+            </div>
+          </div>
+    </section>
+    <footer>
+      <p>&copy; 2021 Emssy's Gift. Tous droits réservés. <br>Réalisé par Marc-Antoine Ricard</p>
+    </footer>
+</body>
+</html>
