@@ -13,7 +13,7 @@ Un site web qui recommande des idées de cadeaux (mon idée de faire une pizzeri
         - d'au moin 8 types (attribut type) différents
         - attributs de validation HTML5 pour valider l’entrée de plusieurs champs 
         - afficher un message approprié dans l'info-bulle si l'entrée n'est pas valide.
-- [ ]  Audio et vidéo
+- [X]  Audio et vidéo
 - [X]  Média queries
 - [X]  Flex box
 
@@ -54,8 +54,8 @@ Un site web qui recommande des idées de cadeaux (mon idée de faire une pizzeri
 - [X] mettre un peu de css dans À propos
 - [X] Css bouton voir les cartes pokemon
 - [X] Vérifier les fichiers css si selecteurs se repetent
-- [ ] Faire proposition.html
 - [ ] Relire tous les exigences du site
-- [ ] Ajouter de l'audio
+- [X] Ajouter de l'audio
+- [ ] Analyser ou ajouter du css
 
 

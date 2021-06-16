@@ -221,7 +221,11 @@ html{
   }
 
   .content .suggestion{
-      border: solid  #06b5eb 3px;
+    border: solid  #06b5eb 3px;
+  }
+  
+  .content audio{
+    float: right;
   }
   
   /*==============================*/
