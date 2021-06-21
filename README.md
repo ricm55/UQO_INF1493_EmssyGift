@@ -1,7 +1,10 @@
 # EMSSY GIFT
 Projet dans le cadre du cours INF1493 - Initiation à la création de sites Web
 
-Un site web qui recommande des idées de cadeaux (mon idée de faire une pizzeria a pas été accepté kek)
+Un site web qui recommande des idées de cadeaux
+
+### Deployement
+online on https://emssygift.surge.sh/
 
 ### HTML et CSS
 - [X]  Titre, paragraphe sections etc...
@@ -28,7 +31,7 @@ Un site web qui recommande des idées de cadeaux (mon idée de faire une pizzeri
         - Créer une page de traitement du formulaire avec PHP coté server
         - La soumission du formulaire doit transmettre toutes les données du formulaire (dans un format ver la base de données Mysql à travers la page de traitement php et également à travers un courriel. 
 
-## PAGES
+### PAGES
 
 - [X] index.html => Page d'accueil
 - [X] APropos.html => Page À Propos
@@ -54,5 +57,7 @@ Un site web qui recommande des idées de cadeaux (mon idée de faire une pizzeri
 - [X] Vérifier les fichiers css si selecteurs se repetent
 - [X] Ajouter de l'audio
 - [X] Analyser ou ajouter du css
-- [ ] Relire tous les exigences du site
+- [X] Relire tous les exigences du site
+
+
 
