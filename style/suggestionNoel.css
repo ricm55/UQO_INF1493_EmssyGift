@@ -226,6 +226,8 @@ html{
   
   .content audio{
     float: right;
+    background-color: #06b5eb;
+    border: inset #06b5eb 3px;
   }
   
   /*==============================*/
